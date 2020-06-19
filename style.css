@@ -1,6 +1,6 @@
 /* Write some CSS below */
 body{
-	font-family: Arial,Helbatica,sans-serif;
+	font-family: Brush Script MT, Brush Script Std, cursive;
 	font-size: 15px;
 	line-height: 1.5;
 	padding: 0;
@@ -70,37 +70,229 @@ header a:hover{
 
 /*showcase*/
 
-#boxes{
-	min-height:536px;
+#boxe{
+	min-height:700px;
 	background: url('./images/star wars.jpg') no-repeat ;
+	background-size: cover;
 }
 
 
-#boxes .box1{
+#boxe .box1{
 	margin-top:250px;
 	font-weight: bold;
 	font-size: medium;
 
 }
 
-#boxes .box1{
+#boxe .box1{
 	margin-top:250px;
 	font-weight: bold;
-	font-size: medium;
+	font-size: 30px;
 
 }
 
-#genre{
-	min-height:800px ;
+
+/*list welcome page*/
+#list{
+	min-height:800px;
 	background: url('./images/pandora.jpg') no-repeat ;
+	background-size: cover;
+}
+
+#list h2{
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#list  nav{
+	float: center;
+	margin-top: 60px;
+	text-align: center;
+}
+
+#list  li{
+	float:center;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#list a{
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 35px;
 }
 
 
-#genre1{
-	top:500px;
-	right: 10px;
+/*genre list*/
 
+#genre {
+	min-height:800px;
+	background: url('./images/downton abbey.jpg') no-repeat ;
+	background-size: cover;
 }
 
 
 
+.g1 nav{
+	float: center;
+	margin-top: 40px;
+	margin-left: 400px;
+}
+
+.g2 nav{
+	float: center;
+	margin-left: 500px;
+}
+
+.g3 nav{
+	float: center;
+	margin-left: 700px;
+}
+
+.g4 nav{
+	float: center;
+	margin-left: 800px;
+}
+
+.g5 nav{
+	float: center;
+	margin-top: 70px;
+	margin-left: 850px;
+}
+
+.g6 nav{
+	float: center;
+	margin-left: 750px;
+}
+
+.g7 nav{
+	float: center;
+	margin-top: 60px;
+	margin-left: 650px;
+}
+
+.g8 nav{
+	float: center;
+	margin-left: 550px;
+}
+
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, li{
+	float:center;
+	display: inline;
+	padding: 0 0 0 0;
+}
+
+.g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, a{
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+
+/*drama*/
+#drama {
+	min-height: 200px;
+	text-align: center; 
+}
+
+#drama h1{
+	font-size: 100px;
+	font-weight: bold;
+	margin-top:50px;
+	margin-bottom: 50px
+}
+
+/*boxes*/
+#boxes{
+	margin-top: 20px;
+}
+
+#boxes .box{
+	float: left;
+	text-align: center;
+	width: 30%;
+	padding:10px;
+}
+
+#boxes .box img{
+	width: 300px;
+}
+
+#boxes .box nav{
+	float: center;
+	margin-top: 20px;
+}
+
+#boxes .box li{
+	float:center;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+#boxes a{
+	color:#000000;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 35px;
+}
+
+/*period movies*/
+#period h1{
+	font-size: 70px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#boxes .f1 img{
+	width: 200px;
+}
+
+#boxes .f1 h3{
+	font-size: 40px;
+	text-align: center;
+}
+
+#boxes .f1 p{
+	text-align: right;
+	font-size: 30px;
+}
+
+
+#boxes .f2{
+	margin-top: 100px;
+}
+
+#boxes .f2 img{
+	width: 200px;
+}
+
+#boxes .f2 h3{
+	font-size: 40px;
+	text-align: center;
+}
+
+#boxes .f2 p{
+	text-align: left;
+	font-size: 30px;
+}
+
+#boxes .f3{
+	margin-top: 100px;
+}
+
+#boxes .f3 img{
+	width: 200px;
+}
+
+#boxes .f3 h3{
+	font-size: 40px;
+	text-align: center;
+}
+
+#boxes .f3 p{
+	text-align: right;
+	font-size: 30px;
+}
